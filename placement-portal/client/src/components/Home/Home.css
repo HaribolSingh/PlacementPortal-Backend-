@@ -1,0 +1,51 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 8rem;
+
+    text-align: center;
+    height: 12.5rem;
+    width: 33rem;
+    border-radius: 12px;
+    padding: 2.5rem;
+    background: rgba(31, 15, 64, 0.4);
+    mix-blend-mode: overlay;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.box button {
+    height: 35px;
+    width: 111px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    background-color:  black;
+    border-radius: 10px;
+    text-decoration: none;
+
+    color: white;
+}
+
+.link-tag {
+    text-decoration: none;
+}

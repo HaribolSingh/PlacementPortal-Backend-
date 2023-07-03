@@ -1,0 +1,47 @@
+.table-container {
+    width: 80%;
+    height: 50vh;
+
+    margin: 3rem 10%;
+}
+
+.table-title h3 {
+    color: white;
+    font-size: 40px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-apply-button {
+    width: 100px;
+    height: 2rem;
+    background-color: skyblue;
+    border: none;
+    color: white;
+}
+
+.table-apply-button:hover {
+    background-color: #1F0F40;
+    box-shadow: 20px;
+}
+
+.table-message {
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+}

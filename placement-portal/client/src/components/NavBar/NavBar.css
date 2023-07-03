@@ -1,0 +1,27 @@
+
+.nav-container {
+    width: 100vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #1F0F40;
+    mix-blend-mode: overlay;
+    z-index: 0;
+}
+
+.nav-brand {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 8rem;
+    width: 8rem;
+    z-index: 1;
+}
+
+.title {
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
